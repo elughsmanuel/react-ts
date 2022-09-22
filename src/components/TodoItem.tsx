@@ -1,6 +1,6 @@
-const TodoItem = () => {
+const TodoItem: React.FC<{ text: string }> = (props) => {
     return ( 
-        <li></li>
+        <li>{props.text}</li>
      );
 }
  
